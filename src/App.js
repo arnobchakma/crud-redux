@@ -3,11 +3,13 @@ import CardList from "./components/features/cards/CardList";
 import EditTask from "./components/features/taskList/EditTask";
 import TaskList from "./components/features/taskList/TaskList";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 
 const App = () => {
     return (
         <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/" element={<CardList />} />
             <Route path="task-list" element={<TaskList />} />
             <Route path="/edit-task/:id" element={<EditTask />} />

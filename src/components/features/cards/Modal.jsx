@@ -33,7 +33,7 @@ const Modal = ({ closeModal }) => {
 
     return (
         <div className="container">
-            <div className="formStyle">
+            <form className="formStyle">
                 <ModalField
                     value={values.title}
                     inputProps={{ type: "title", placeholder: 'Title' }}
@@ -54,7 +54,7 @@ const Modal = ({ closeModal }) => {
                     <Button type="button" onClick={() => handleAddCard()}>Submit</Button>
                     <Button type="button" onClick={() => closeModal(false)}>Back</Button>
                 </div>
-            </div>
+            </form>
         </div>
     );
 };

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply max-w-screen-xl mx-auto my-20 font-mono;
+}
+
+.formStyle {
+    @apply w-7/12 mx-auto bg-white p-6 shadow-xl rounded-lg;
+}

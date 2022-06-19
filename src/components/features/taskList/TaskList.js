@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import Footer from "../../Footer";
 import Table from "./Table";
 
 const TaskList = () => {
@@ -6,7 +7,7 @@ const TaskList = () => {
     
     return (
         <div className="container">
-            <div className="formStyle">
+            <div className="formStyle mb-16">
                 <h3 className="text-center text-indigo-500"> Table List Details </h3>
                 <div>
                     {
@@ -17,6 +18,9 @@ const TaskList = () => {
 
                 </div>
             </div>
+            
+            {/* Footer */}
+            <Footer />
         </div>
     );
 };

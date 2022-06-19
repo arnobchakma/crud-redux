@@ -12,7 +12,7 @@ const Modal = ({ closeModal }) => {
     const [values, setValues] = useState({
         title: '',
         description: '',
-        date: ''
+        date: 0
     });
 
     // Add Card on body 

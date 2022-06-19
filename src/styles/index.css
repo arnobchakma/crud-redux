@@ -7,5 +7,5 @@
 }
 
 .formStyle {
-    @apply w-7/12 mx-auto bg-white p-6 shadow-xl rounded-lg;
+    @apply w-9/12 mx-auto bg-white p-6 shadow-xl rounded-lg;
 }

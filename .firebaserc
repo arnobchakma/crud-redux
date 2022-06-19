@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "typescript-project-10ba7"
-  }
+    "default": "crud-redux-b1b90",
+    "staging": "crud-redux-b1b90",
+    "task": "crud-redux-a63eb"
+  },
+  "targets": {}
 }

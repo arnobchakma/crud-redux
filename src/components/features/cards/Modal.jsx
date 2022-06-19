@@ -12,7 +12,7 @@ const Modal = ({ closeModal }) => {
     const [values, setValues] = useState({
         title: '',
         description: '',
-        date: 0
+        date: ''
     });
 
     // Add Card on body 
@@ -20,7 +20,7 @@ const Modal = ({ closeModal }) => {
         setValues({
             title: '',
             description: '',
-            date: 0
+            date: ''
         });
         dispatch(addCard({
             id: uuidv4(),
